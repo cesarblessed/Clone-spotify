@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* elementos base */
+body {
+    font-family: 'Arial', Times, serif;
+    color: white;
+} 
+header {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 55px;
+} 
+header .logo {
+    font-size: 30px;
+    font-weight: bold; 
+}
+header nav {
+    width: 450px;
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    
+}
+header nav a {
+    text-decoration: none;
+    color: white;
+}
+header nav a:hover {
+    color: rgb(16, 212, 59);
+}
+.section-principal {
+    
+    font-size: 16px;
+       background: linear-gradient(rgba(10,10,200,.30),rgba(10,80,60,.100)100%), url('../img/principal.jpg');
+       height: 650px;
+       background-size: cover;
+       
+       display: flex;
+       justify-content: center;
+       align-items: center;
+}
+.div-principal {
+    width: 75%;
+    
+   
+}
+.btn-principal {
+    padding: 15px;
+    width: 300px;
+    border-radius: 25px;
+    border: none;
+    background-color: rgb(16, 212, 59);
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+}
+.btn-principal:hover {  
+    padding: 20px;
+}
+section .div-principal .section-slogan{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 12px;
+}
+.img-format {
+    width: 250px;
+    height: 250px;
+    border-radius: 150px;
+    border: 5px solid white;
+    margin-bottom: 30px;
+}
+section .div-principal .section-slogan h2 {
+    margin-bottom: 50px;
+    font-size: 20px;
+}
+.box-music {
+    width: 200px;
+    height: 200px;
+    display: block;
+    border: 3px solid rgb(16, 212, 59);
+}
+.section-content {
+    width: 100%;
+    height: 725px;
+    margin-top: -50px;
+    background-color: black;
+}
+.carrosel-filmes {
+    
+    padding: 0px -30px;
+    display: flex;
+    align-items: center;
+    
+
+}
+
+
+
+.caixa {
+    margin-top: 20px;
+}
+.titulo-sessao {
+    padding: 10px;
+}
+.titulo-music {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 5px 0px 0px 5px;
+}
+.subtitulo-music {
+    font-size: 18px;
+    font-weight: 600;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(163, 148, 148);
+    margin-left: 5px;
+}
